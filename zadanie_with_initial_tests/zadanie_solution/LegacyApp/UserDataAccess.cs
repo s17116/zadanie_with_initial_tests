@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using LegacyApp.Models;
 
 namespace LegacyApp
 {
