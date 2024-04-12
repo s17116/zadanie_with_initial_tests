@@ -70,19 +70,7 @@ public class UserService
 		{
 			return false;
 		}
-		//var clientRepository = new ClientRepository();
-		//var client = clientRepository.GetById(clientId);
-
-		//?
-		//Client client = null;
-		//try
-		//{
-		//    client = ClientRepository.GetById(clientId);
-		//}
-		//catch (ArgumentException ex)
-		//{
-		//    return false;
-		//}
+		
 
 		var client = ClientRepository.GetById(clientId);
 		var user = new User
